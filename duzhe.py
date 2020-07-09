@@ -10,7 +10,7 @@ def open_web():
     year = var1.get()
     mouth = var2.get()
     time = year + "_" + mouth
-    baseurl = 'http://www.52duzhe.com/' + time +'/'
+    baseurl = 'http://www.52XXXXX.com/' + time +'/'
     firsturl = baseurl + 'index.html'
     webbrowser.open(firsturl)
 
